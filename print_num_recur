@@ -1,0 +1,22 @@
+
+#include <iostream>
+#include<vector>
+#include <limits.h>
+#include <algorithm>
+using namespace std;
+void f(int n){
+    
+    if(n<1) return;
+    f(n-1);
+    cout<<n<<" ";
+    
+ 
+}
+
+int main()
+{ 
+    int n;
+  
+    f(20);
+    return 0;
+}
